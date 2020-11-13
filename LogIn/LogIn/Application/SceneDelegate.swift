@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let winScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: winScene)
         window?.makeKeyAndVisible()
-        window?.rootViewController = RecoveryViewController()
+        window?.rootViewController = StartViewController()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
